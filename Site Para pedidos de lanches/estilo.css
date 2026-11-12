@@ -1,0 +1,93 @@
+body {
+  font-family: Arial, sans-serif;
+  /*max-width: 600px;*/
+  min-height: 100vh; /*  */
+  margin: 0 /*auto*/;
+  padding: 20px 10px;
+  box-sizing: border-box;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  
+  background: white;
+}
+
+#app {
+  width: 100%;
+  max-width: 850px;
+  margin: 0 auto;
+}
+
+body.login{
+  background-image: url(imagens/login.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+body.interno{
+  background-image: url(imagens/interno.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h2, h3 { color: black (233, 26, 26); }
+
+input, select, button {
+  display: block;
+  width: 100%;
+  padding: 16px;
+  margin: 12px 0;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+input, select{
+  background-color: #fff8dc;
+  border: 1px solid;
+  border-radius: 5px;
+  cursor: pointer
+}
+
+.btn-principal {
+  background: #228b22;
+  color: #fff8dc;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-principal:hover { background: #186d18; }
+
+.btn-secundario {
+  background: #ed5d03;
+  color: #fff8dc;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-secundario:hover { background: #c54f05; }
+
+.item {
+  background: #fff8dc;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 8px 0;
+  cursor: pointer;
+}
+
+
+.erro { color: red; margin: 5px 0; }
+
+.tempo {
+  font-size: 40px;
+  color: #c0392b;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+}
